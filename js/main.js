@@ -47,7 +47,15 @@ window.onload = async function () {
 
         document.getElementById("contain").style.fontSize = "xx-large";
         document.getElementById("footer").style.fontSize = "xx-large";
-
+        document.getElementById("realtextadd").style.fontSize="xx-large";
+        document.getElementById("produces").style.display='flex';
+        document.getElementById("produces").style.flexDirection='column';
+        var buttons = document.getElementsByClassName("btn");
+        for(var i=0;i<buttons.length;i++){
+            var btnf = buttons[i];
+            btnf.style.fontSize = 'xx-lager';
+        }
+        document.getElementById("dathangModal").style.fontSize ="xx-large";
 
     }
     var imgdathangf = document.getElementById("imagedathang");
