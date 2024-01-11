@@ -9,8 +9,11 @@ window.onload = async function () {
         var text = textintro[1];
         var image = document.getElementById('imgintro');
         if (isUrlValid(img) === true) {
-
-            image.src = img;
+         
+           
+                image.src = img;
+            
+           
         }
         else {
             image.src = "https://static-00.iconduck.com/assets.00/no-image-icon-512x512-lfoanl0w.png";
